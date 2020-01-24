@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #554454;
+  --color-primary-light: #f2eff2;
+  --color-secondary: #211620;
+  --color-accent: #f2eff2;
+  --color-neautral-beige: #837788;
+  --color-whatever: #fff;
+
+  --font-primary: "proxima-nova", sans-serif;
+  --font-secondary: "garamond";
+}
+
+html {
+  font-family: var(--font-primary);
+}
