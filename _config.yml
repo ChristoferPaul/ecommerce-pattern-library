@@ -15,7 +15,7 @@ patternbot:
     typefaces.primary: |
     Georgia was slected because it's a classic font-for classic creatures. Georgia is to be used for all body copy and most situations.
     typefaces.secondary: |
-      PT Sans Narrow is only to be used for highlighting text: headings, buttons, banner, etc.
+    PT Sans Narrow is only to be used for highlighting text headings, buttons, banner, etc.
     colors.primary: |
     The primary colours represent herbivores & plants & greenery. They should be used in text and foregrounds.
     colors.secondary: |
