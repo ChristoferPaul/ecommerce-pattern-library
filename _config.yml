@@ -6,6 +6,11 @@ patternbot:
   description: |
     A small local dinosaur rescue organization specializing in herbivores. Dinos are in danger and we need to save them all!
   font_url: "https://use.typekit.net/pfq7ikh.css"
+  colors:
+    background: "--color-secondary-light"
+    accent: "--color-primary-dark"
+    patterns:
+      brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
     Georgia was slected because it's a classic font-for classic creatures. Georgia is to be used for all body copy and most situations.
@@ -15,4 +20,5 @@ patternbot:
     colors.primary: |
     The primary colours represent herbivores & plants & greenery. They should be used in text and foregrounds.
 
-    colors.secondary:
+    colors.secondary: |
+    The secondary colours represent stuff.
