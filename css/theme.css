@@ -23,8 +23,8 @@ h1 {
 
 h2 {
   font-family: var(--font-primary);
-  font-weight: lighter;
-  color: var(--color-primary);
+  font-weight: bold;
+  color: var(--color-secondary);
   font-style: normal;
 }
 
@@ -111,4 +111,11 @@ em, strong, del, ins, abbr, dfn, i, b, mark, q, s, u {
   color: var(--color-black);
   font-style: normal;
   font-weight: 400;
+}
+
+p {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-style: normal;
+  font-weight: normal;
 }
