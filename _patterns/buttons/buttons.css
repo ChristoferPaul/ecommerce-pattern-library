@@ -2,6 +2,7 @@
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-primary-light);
+  font-weight: bold;
 }
 
 .btn:hover {
@@ -12,6 +13,7 @@
 .btn-ghost {
   background-color: transparent;
   color: var(--color-secondary);
+  font-weight: bold;
 }
 
 .btn-ghost:hover {
@@ -22,4 +24,5 @@
   background-color: var(--color-neautral-beige);
   border-color: var(--color-neautral-beige);
   color: var(--color-whatever);
+  font-weight: bold;
 }
