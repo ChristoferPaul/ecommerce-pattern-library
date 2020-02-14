@@ -84,7 +84,7 @@ dl {
 }
 
 a {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-black);
   font-style: normal;
   font-weight: 500;
