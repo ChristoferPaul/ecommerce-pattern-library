@@ -5,7 +5,7 @@ patternbot:
   title: "Breaking Bread"
   description: |
     Artisanal online bread shop!
-  font_url: "https://use.typekit.net/pfq7ikh.css"
+  font_url: "https://use.typekit.net/dzi0tye.css"
   colors:
     background: "--color-primary-light"
     accent: "--color-primary-dark"
