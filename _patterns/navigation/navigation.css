@@ -40,7 +40,6 @@ nav i {
 
 .nav li {
   display: inline-block;
-  /* margin-top: 3em; */
   cursor: pointer;
   padding: 0 1em;
 }
@@ -91,11 +90,11 @@ nav ul {
 .nav-current {
   border: 2px solid #000;
   border-radius: 50%;
-  padding: 0 .48em;
+  padding: 0 .60em;
 }
 
 .pagination-full .current {
   border: 2px solid #000;
   border-radius: 50%;
-  padding: 0 1.35em;
+  padding: 0 .60em;
 }

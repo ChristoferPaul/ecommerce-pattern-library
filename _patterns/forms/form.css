@@ -1,0 +1,39 @@
+button, input, textarea {
+  border: solid 1px #ccc;
+  border-radius: 8px;
+
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.selection select {
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 8px;
+
+  height: 3em;
+  width: 4em;
+}
+
+.prov-selection select {
+  height: 3em;
+  width: 100%;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.icon-label {
+  color: var(--color-accent);
+}
+
+.error-label {
+  color: var(--color-accent);
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-accent);
+}
