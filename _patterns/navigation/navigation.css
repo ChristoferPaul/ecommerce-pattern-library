@@ -44,16 +44,6 @@ nav i {
   padding: 0 1em;
 }
 
-.nav li:hover,
-.nav-light li:hover {
-  border-bottom: 2px solid #fff;
-
-  transition : border 200ms ease-out;
-  -webkit-transition : border 200ms ease-out;
-  -moz-transition : border 200ms ease-out;
-  -o-transition : border 200ms ease-out;
-}
-
 .nav-footer li:hover {
   background-color: var(--color-primary-dark);
 

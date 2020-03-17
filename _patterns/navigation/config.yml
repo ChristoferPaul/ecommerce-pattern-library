@@ -1,0 +1,16 @@
+title: "Navigation"
+description: |
+  Navigation sections are used to access other parts and sections of the page and perform functions like moving to the next and previous page.
+patterns:
+  page numbers:
+    title: "4 page numbers"
+    description: |
+      A group of buttons that lets the user navigate to different pages or go to the previous or next page.
+  breadcrumbs:
+    title: "1 breadcrumbs"
+    description: |
+      Used to show which page user is on, typically on the upper left corner when navigating through a website.
+  banner:
+    title: "3 footer anchor"
+    description: |
+      Navigation that is placed in the footer.
