@@ -7,7 +7,7 @@
   --color-whatever: #fff;
 
   --font-primary: "proxima-nova", sans-serif;
-  --font-secondary: "garamond-premier-pro";
+  --font-secondary: "garamond-premier-pro", serif;
 }
 
 html {
