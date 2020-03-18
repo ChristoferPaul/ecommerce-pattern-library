@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   font-weight: bold;
   color: var(--color-secondary);
   font-style: normal;
