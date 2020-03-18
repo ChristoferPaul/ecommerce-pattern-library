@@ -6,8 +6,8 @@
   --color-neautral-beige: #837788;
   --color-whatever: #fff;
 
-  --font-primary: "proxima-nova", sans-serif;
-  --font-secondary: "garamond-premier-pro", serif;
+  --font-primary: "garamond-premier-pro", serif;
+  --font-secondary: "proxima-nova", sans-serif;
 }
 
 html {
@@ -84,7 +84,7 @@ dl {
 }
 
 a {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-black);
   font-style: normal;
   font-weight: 500;
