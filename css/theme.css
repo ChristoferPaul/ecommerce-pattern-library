@@ -131,3 +131,7 @@ q {
   color: var(--color-black);
   font-style: normal;
 }
+
+.btn {
+  font-family: var(--font-secondary);
+}
