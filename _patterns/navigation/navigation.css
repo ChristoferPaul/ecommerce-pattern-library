@@ -16,10 +16,6 @@ nav i {
   background-color: var(--color-primary-light);
 }
 
-.nav {
-  height: 8em;
-}
-
 .nav-light {
   text-align: right;
 }
@@ -67,20 +63,20 @@ nav ul {
   margin-bottom: 0;
 }
 
+/* ---pagination--- */
+
 .pagination a {
   text-decoration: none;
-  display: inline-block;
   color: #000;
 }
 
-.page-n {
-  margin: 0 .25em;
+.page-link-wrap {
+  padding:0 .5em;
 }
 
-.nav-current {
+.page-current {
   border: 2px solid #000;
   border-radius: 50%;
-  padding: 0 .60em;
 }
 
 .pagination-full .current {

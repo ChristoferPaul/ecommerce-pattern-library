@@ -1,37 +1,13 @@
-.hamburger-header {
-  padding-bottom: .25em;
-}
-
-.banner-header {
-  z-index: 999;
-  width: 100%;
-}
-
-.header-logo img {
-  padding: 1em;
-  width: 64px;
-}
-
-.header {
-  text-align: right;
-  margin-bottom: 3em;
-  right: 0;
-}
-
 .header img {
   cursor: pointer;
-  width: 4em;
-
-  margin-right: 1em;
-  /*padding: 1em 0 1em 1em;*/
-  text-align: center;
 }
 
 .header-nav {
   display: none;
-  top: 2em;
   width: 100%;
 }
+
+/* --- toggle nav icon --- */
 
 .nav-close {
   display: none;
@@ -42,8 +18,7 @@
 }
 
 .nav-check:checked ~ .nav-label .nav-close {
-  display: inline;
-  margin-right: 1em;
+  display: block;
 }
 
 .nav-check:checked ~ .header-nav {
@@ -54,21 +29,18 @@
   position: absolute;
   top: -3em;
 }
+/* --- nav list styling --- */
 
 .nav i {
   margin-bottom: 5px;
   margin-left: 2px;
 }
 
-.header-nav li a {
-  color: #fff;
+.header-nav li {
   text-decoration: none;
 }
 
-.header-nav ul {
-  margin: 0;
-  padding-bottom: 1em;
-}
+/* ---unused class nav-block?--- */
 
 @media screen and (min-width: 60em) {
 
@@ -91,37 +63,14 @@
     margin-top: 2.75em;
   }
 
-  .header {
-    padding-bottom: 4em;
-}
-  .header-nav {
-    display: block;
-  }
-
-  .nav-open {
-    display: none;
-  }
-
-  header label {
-    display: none;
-  }
-
-  .header-nav {
-    padding: 3em 0 1em 0;
-    text-align: right;
-    width: 100%;
-  }
-
   .header-nav li {
-    display: inline;
+    display: block;
     padding: 0 1.5em;
   }
 
-  .header-nav li a {
-    color: #fff;
-    text-decoration: none;
-  }
 }
+
+/* ---spacing--- */
 
 @media only screen and (min-width: 20em) {
 
@@ -131,9 +80,7 @@
     max-width: 200px;
   }
 
-  .header {
-    margin-top: -220px;
-  }
+
 
   label img {
     margin-top: 4.5em;
@@ -142,5 +89,78 @@
   .nav-block li:first-child {
     margin-top: 2.75em;
   }
+
+}
+
+header {
+  display: flex!important;
+  position: relative;
+  min-width: 100%;
+  justify-content: space-between!important;
+  background: url("/images/bread-card.jpg") center center / cover no-repeat;
+}
+
+.nav-label, .nav-label img {
+  position: absolute;
+  top: .5em;
+  right: 1em;
+}
+
+.nav-label img {
+  width: 30px;
+}
+
+.header {
+display: flex!important;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+height: auto;
+}
+
+.header ul {
+  position: absolute;
+  background-color: var(--color-primary-light);
+  padding-right: 1em;
+  top: 160px;
+  right: 0;
+  width: 33.3%;
+}
+
+.header ul li {
+  display: block;
+  padding-bottom: .5em; /* spacing around the nav links */
+  width: 100%;
+}
+
+.header-nav {
+  text-align: right; /* used to align the nav links to the right on large screen, otherwise they'll be too close to the logo */
+}
+
+.header nav a {
+  color: #000;
+}
+
+@media only screen and (min-width: 38em) {
+
+  header label, header label img {
+    display: none;
+    visibility: hidden;
+  }
+
+  .header-nav {
+    display: block;
+  }
+
+  .header ul {
+    position: static;
+    width: 100%;
+    background-color: transparent;
+  }
+
+.header ul li {
+  display: inline-block;
+  width: auto;
+}
 
 }
